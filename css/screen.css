@@ -1,0 +1,149 @@
+
+			
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+			
+	#content{
+		position:fixed;
+		}	
+
+/* Easy Slider */
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:0em;}
+	#slider li, #slider2 li{
+	/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+	width: 1900px;
+	height: 1200px;
+	overflow: hidden;
+		}	
+
+	#prevBtn, #slider1prev{ 
+		display:block;
+		width:46px;
+		height:101px;
+		position:fixed;
+		left:0%;
+		top:300px;
+		z-index:1000;
+		}	
+		
+		 #nextBtn,#slider1next{ 
+		display:block;
+		width:46px;
+		height:101px;
+		position:fixed;
+		right:0px;
+		top:300px;
+		z-index:1000;
+		}	
+
+														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:fixed;
+		width:46px;
+		height:101px;
+		background:url(../images/arrowLeft.png) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(../images/arrowRight.png) no-repeat 0 0;
+		}	
+		@media screen and (max-width: 420px){
+	
+
+	#slider li, #slider2 li{
+	/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+	width: 1000px;
+	overflow: hidden;
+		}	
+#prevBtn, #slider1prev{ 
+		display:block;
+		width:46px;
+		height:101px;
+		position:fixed;
+		left:0%;
+		top:250px;
+		z-index:1000;
+		}	
+		
+		 #nextBtn,#slider1next{ 
+		display:block;
+		width:46px;
+		height:101px;
+		position:fixed;
+		right:-23px;
+		top:250px;
+		z-index:1000;
+		}
+		#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:fixed;
+		width:46px;
+		height:101px;
+		background:url(../images/arrowLeft2.png) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(../images/arrowRight2.png) no-repeat 0 0;
+		}	
+.screen320{ width:1000px;}	
+}
+@media screen and (max-width: 360px){
+	#slider li, #slider2 li{
+	/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+	width: 1000px;
+	overflow: hidden;
+		}	
+#prevBtn, #slider1prev{ 
+		display:block;
+		width:46px;
+		height:101px;
+		position:fixed;
+		left:0%;
+		top:250px;
+		z-index:1000;
+		}	
+		
+		 #nextBtn,#slider1next{ 
+		display:block;
+		width:46px;
+		height:101px;
+		position:fixed;
+		right:-23px;
+		top:250px;
+		z-index:1000;
+		}
+		#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:fixed;
+		width:46px;
+		height:101px;
+		background:url(../images/arrowLeft2.png) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(../images/arrowRight2.png) no-repeat 0 0;
+		}	
+.screen320{ width:1000px;}	
+}
